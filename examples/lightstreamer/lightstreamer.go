@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
+
+	"github.com/justusth/igmarkets"
 	"github.com/lfritz/env"
 	log "github.com/sirupsen/logrus"
-	"github.com/sklinkert/igmarkets"
 )
 
 var conf struct {

@@ -3,11 +3,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/lfritz/env"
-	log "github.com/sirupsen/logrus"
-	"github.com/sklinkert/igmarkets"
 	"os"
 	"time"
+
+	"github.com/justusth/igmarkets"
+	"github.com/lfritz/env"
+	log "github.com/sirupsen/logrus"
 )
 
 func checkErr(err error) {

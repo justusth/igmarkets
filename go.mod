@@ -1,4 +1,4 @@
-module github.com/sklinkert/igmarkets
+module github.com/justusth/igmarkets
 
 go 1.16
 
